@@ -2,19 +2,21 @@
 
 <p align="center"><img src="./assets/catch-phrase-joke2.svg" alt="Animated catch phrase" width="450" /></p>
 
+<h3 align="center">Let's Connect</h3>
+
 <p align="center">
 <a href="https://www.linkedin.com/in/gawah-chong-simard/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <img src="./assets/contact-linkedin.svg" alt="LinkedIn: connect with Gawah" width="200" />
 </a>
 <a href="https://github.com/Toggled1" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="./assets/contact-github.svg" alt="GitHub: view Gawah's projects" width="200" />
 </a>
 <a href="mailto:gawah9@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <img src="./assets/contact-email.svg" alt="Email Gawah" width="200" />
 </a>
 </p>
 
-## About Me
+## ![About Me](./assets/subheading-about-me.svg)
 
 My name is Gawah Chong-Simard. I study Computer Engineering at the University of Victoria. 
 
@@ -27,7 +29,7 @@ My current focus is on ASIC, FPGA, and SoC design with an emphasis on design ver
 - **Exploring:** VLSI, digital design, design verif <img src="./assets/circuit_icon.png" alt="Circuit" height="14" />
 - **Fun fact:** I work the best while listening to classic music, especially: Chopin, Scriabin, Rachmaninoff, Prokofiev, Liszt and Tchaikovsky. <img src="./assets/piano.png" alt="Piano" height="14" />
 
-## Languages & Hardware Description
+## ![Languages & Hardware Description](./assets/subheading-languages.svg)
 
 <div align="center">
 
@@ -60,12 +62,12 @@ My current focus is on ASIC, FPGA, and SoC design with an emphasis on design ver
 
 </div>
 
-## Verification & Design
+## ![Verification & Design](./assets/subheading-verification.svg)
 
 - **SystemVerilog and UVM** for verification and design
 - **Synopsys VCS and Verdi** for simulation and debug/analysis
 
-## Tools & DevOps
+## ![Tools & DevOps](./assets/subheading-tools.svg)
 
 <div align="center">
 
@@ -96,18 +98,3 @@ My current focus is on ASIC, FPGA, and SoC design with an emphasis on design ver
 
 </div>
 
-<div align="center">
-
-### Let's Connect
-
-<a href="https://www.linkedin.com/in/gawah-chong-simard/" target="_blank">
-  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
-</a>
-<a href="https://github.com/Toggled1" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-<a href="mailto:gawah9@gmail.com">
-  <img src="https://img.shields.io/badge/Send_me_an_email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send me an email" />
-</a>
-
-</div>
