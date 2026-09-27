@@ -64,7 +64,6 @@ I'm interested in VLSI, digital design, and the semiconductor industry. My curre
 
 - **SystemVerilog and UVM** for verification and design
 - **Synopsys VCS and Verdi** for simulation and debug/analysis
-- **VLSI and semiconductor technology**
 
 ## Tools & DevOps
 
