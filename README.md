@@ -5,7 +5,7 @@
 <h3 align="center">Let's Connect</h3>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/gawah-chong-simard/" target="_blank">
+<a href="https://www.linkedin.com/in/gawah/" target="_blank">
   <img src="./assets/contact-linkedin.svg" alt="LinkedIn: connect with Gawah" width="200" />
 </a>
 <a href="https://github.com/Toggled1" target="_blank">
