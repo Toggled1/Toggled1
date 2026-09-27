@@ -44,7 +44,7 @@ I'm interested in VLSI, digital design, and the semiconductor industry. My curre
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="65" height="65" />
     </td>
     <td align="center" width="150">
-      <img src="./assets/vhdl-logo.png" alt="VHDL" width="85" />
+      <img src="./assets/vhdl-logo.svg" alt="VHDL" width="85" />
     </td>
   </tr>
   <tr>
