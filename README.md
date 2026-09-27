@@ -16,11 +16,11 @@
 
 ## About Me
 
-My name is Gawah Chong-Simard. I study Computer Engineering student at the University of Victoria. 
+My name is Gawah Chong-Simard. I study Computer Engineering at the University of Victoria. 
 
 **Here's a bit about me:**
 
-My current work and learning focus is on ASIC, FPGA, and SoC design with an emphasis on design verification with UVM.
+My current focus is on ASIC, FPGA, and SoC design with an emphasis on design verification with UVM.
 <p align="center"><img src="./assets/uvm-icon.svg" alt="Animated catch phrase" width="100" /></p>
 
 - **Studying:** Computer Engineering at the University of Victoria <img src="./assets/uvic-logo.png" alt="University of Victoria" height="14" />
