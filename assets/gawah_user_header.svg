@@ -2,25 +2,37 @@
   <defs>
     <!-- Modern Engineering Typography -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600&amp;family=Space+Grotesk:wght@700&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&amp;family=Orbitron:wght@600;700&amp;display=swap');
 
       .title-name {
-        font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
-        font-weight: 700;
-        font-size: 54px;
-        fill: #F8FAFC;
-        letter-spacing: 10px;
+        font-family: 'Orbitron', 'Space Grotesk', sans-serif;
+        font-weight: 600;
+        font-size: 48px;
+        fill: url(#name-gradient);
+        letter-spacing: 8px;
         text-anchor: middle;
         text-transform: uppercase;
+        animation: title-arrive 1.1s cubic-bezier(.2,.75,.25,1) both;
       }
 
       .subtitle-text {
-        font-family: 'Fira Code', monospace;
+        font-family: 'IBM Plex Mono', 'Fira Code', monospace;
         font-weight: 500;
         font-size: 20px;
-        fill: #38BDF8;
+        fill: #8FE0BC;
         letter-spacing: 3.5px;
         text-anchor: middle;
+        animation: subtitle-arrive .8s ease-out .35s both;
+      }
+
+      @keyframes title-arrive {
+        from { opacity: 0; letter-spacing: 18px; }
+        to { opacity: 1; letter-spacing: 8px; }
+      }
+
+      @keyframes subtitle-arrive {
+        from { opacity: 0; transform: translateY(8px); }
+        to { opacity: 1; transform: translateY(0); }
       }
 
       .wave-path {
@@ -70,35 +82,43 @@
 
     <!-- Background Base Gradient with Transparent Bottom -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070A11" />
-      <stop offset="55%" stop-color="#0F172A" />
-      <stop offset="100%" stop-color="#030712" stop-opacity="0" />
+      <stop offset="0%" stop-color="#0D1917" />
+      <stop offset="55%" stop-color="#142321" />
+      <stop offset="100%" stop-color="#0D1917" stop-opacity="0" />
     </linearGradient>
 
     <!-- Central Radial Ambient Glow -->
     <radialGradient id="center-light" cx="50%" cy="45%" r="55%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.25" />
-      <stop offset="60%" stop-color="#818CF8" stop-opacity="0.08" />
+      <stop offset="0%" stop-color="#8FE0BC" stop-opacity="0.25" />
+      <stop offset="60%" stop-color="#FF947D" stop-opacity="0.08" />
       <stop offset="100%" stop-color="#000000" stop-opacity="0" />
     </radialGradient>
 
     <!-- Transparent Wave Gradient Fill -->
     <linearGradient id="wave-fill-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.22" />
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0" />
+      <stop offset="0%" stop-color="#8FE0BC" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#142321" stop-opacity="0" />
     </linearGradient>
 
     <!-- Wave Stroke Gradients -->
-    <linearGradient id="stroke-cyan-purple" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.3" />
-      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.95" />
-      <stop offset="100%" stop-color="#C084FC" stop-opacity="0.3" />
+    <linearGradient id="stroke-mint-coral" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8FE0BC" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#FF947D" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#F1C96E" stop-opacity="0.3" />
     </linearGradient>
 
-    <linearGradient id="stroke-teal-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.85" />
-      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.9" />
+    <linearGradient id="stroke-gold-mint" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F1C96E" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#8FE0BC" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#FF947D" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="name-gradient" x1="-100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#8FE0BC" />
+      <stop offset="45%" stop-color="#F5F0E3" />
+      <stop offset="100%" stop-color="#FF947D" />
+      <animate attributeName="x1" values="-100%;0%;-100%" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%;100%;0%" dur="8s" repeatCount="indefinite" />
     </linearGradient>
 
     <!-- Soft Glow Filter -->
@@ -112,7 +132,7 @@
 
     <!-- Micro Tech Grid Pattern -->
     <pattern id="tech-grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.04" />
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#DCE9E1" stroke-width="1" stroke-opacity="0.04" />
     </pattern>
   </defs>
 
@@ -136,7 +156,7 @@
       <path d="M -528,160 
                Q -396,250 -264,160 T 0,160 T 264,160 T 528,160 T 792,160 T 1056,160 T 1320,160 T 1584,160 T 1848,160 T 2112,160" 
             class="wave-path" 
-            stroke="url(#stroke-teal-cyan)" 
+            stroke="url(#stroke-gold-mint)" 
             stroke-width="3.5" />
     </g>
 
@@ -145,7 +165,7 @@
       <path d="M -396,160 
                Q -297,70 -198,160 T 0,160 T 198,160 T 396,160 T 594,160 T 792,160 T 990,160 T 1188,160 T 1782,160 T 1980,160" 
             class="wave-path" 
-            stroke="url(#stroke-cyan-purple)" 
+            stroke="url(#stroke-mint-coral)" 
             stroke-width="4" />
     </g>
   </g>
@@ -153,19 +173,19 @@
   <!-- UNMASKED CENTER CARD: Crisp & Clear Glassmorphism Content -->
   <g transform="translate(792, 150)">
     <rect x="-560" y="-95" width="1120" height="190" rx="20" 
-          fill="#0F172A" fill-opacity="0.55" 
+          fill="#142321" fill-opacity="0.55" 
           stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="2" />
     
     <!-- Accent Corner Brackets -->
-    <path d="M -535 -70 L -535 -80 L -523 -80" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="square" opacity="0.9" />
-    <path d="M 535 -70 L 535 -80 L 523 -80" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="square" opacity="0.9" />
-    <path d="M -535 70 L -535 80 L -523 80" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="square" opacity="0.9" />
-    <path d="M 535 70 L 535 80 L 523 80" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="square" opacity="0.9" />
+    <path d="M -535 -70 L -535 -80 L -523 -80" fill="none" stroke="#8FE0BC" stroke-width="2.5" stroke-linecap="square" opacity="0.9" />
+    <path d="M 535 -70 L 535 -80 L 523 -80" fill="none" stroke="#8FE0BC" stroke-width="2.5" stroke-linecap="square" opacity="0.9" />
+    <path d="M -535 70 L -535 80 L -523 80" fill="none" stroke="#8FE0BC" stroke-width="2.5" stroke-linecap="square" opacity="0.9" />
+    <path d="M 535 70 L 535 80 L 523 80" fill="none" stroke="#8FE0BC" stroke-width="2.5" stroke-linecap="square" opacity="0.9" />
 
     <!-- Name Typography -->
     <text y="-2" class="title-name">GAWAH CHONG-SIMARD</text>
 
     <!-- Subtitle Line -->
-    <text y="42" class="subtitle-text">ASIC Engineer <tspan fill="#64748B">|</tspan> Developer <tspan fill="#64748B">|</tspan> CEng @ UVic</text>
+    <text y="42" class="subtitle-text">ASIC Engineer <tspan fill="#A9BDB3">|</tspan> Developer <tspan fill="#A9BDB3">|</tspan> CEng @ UVic</text>
   </g>
 </svg>

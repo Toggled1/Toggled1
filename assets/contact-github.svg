@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 72" role="img" aria-labelledby="title">
+  <title id="title">Explore GitHub projects</title>
+  <defs>
+    <linearGradient id="sweep" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0" />
+      <stop offset=".5" stop-color="#fff" stop-opacity=".13" />
+      <stop offset="1" stop-color="#fff" stop-opacity="0" />
+    </linearGradient>
+    <style>
+      .sweep { animation: travel 4s ease-in-out infinite; }
+      .dot { animation: pulse 2s ease-in-out infinite; transform-origin: 218px 19px; }
+      .arrow { animation: nudge 1.8s ease-in-out infinite; }
+      @keyframes travel { 0%, 15% { transform: translateX(-260px); } 75%, 100% { transform: translateX(260px); } }
+      @keyframes pulse { 0%, 100% { opacity: .45; transform: scale(.8); } 50% { opacity: 1; transform: scale(1.15); } }
+      @keyframes nudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(3px); } }
+    </style>
+    <clipPath id="clip"><rect width="240" height="72" rx="12" /></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="240" height="72" fill="#142321" />
+    <path d="M0 0h5v72H0z" fill="#F1C96E" />
+    <circle cx="218" cy="19" r="3" fill="#F1C96E" class="dot" />
+    <path class="sweep" d="M0 0h90L190 72h-90z" fill="url(#sweep)" />
+    <rect x="17" y="18" width="36" height="36" rx="9" fill="#4C4124" />
+    <path d="M35 24a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.3-1.3-1.6-1.3-1.6-1.1-.8.1-.8.1-.8 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.4-5.5-6a4.7 4.7 0 0 1 1.2-3.2 4.4 4.4 0 0 1 .1-3.1s1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.7.2 3 .1 3.1a4.7 4.7 0 0 1 1.2 3.2c0 4.6-2.8 5.7-5.5 6 .4.4.8 1 .8 2v3.4c0 .4.2.7.8.6A12 12 0 0 0 35 24" fill="#fff" />
+    <text x="65" y="33" fill="#F5F0E3" font-family="Arial,sans-serif" font-size="14" font-weight="700">GITHUB</text>
+    <text x="65" y="49" fill="#A9BDB3" font-family="monospace" font-size="9">EXPLORE PROJECTS</text>
+    <path class="arrow" d="M216 37h-10m6-4 4 4-4 4" fill="none" stroke="#F1C96E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" />
+    <path d="M0 70h240" stroke="#F1C96E" stroke-opacity=".42" />
+  </g>
+</svg>

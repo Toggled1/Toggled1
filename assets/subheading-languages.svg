@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="36" viewBox="0 0 600 36" role="img" aria-labelledby="title">
+  <title id="title">Languages &amp; Hardware Description</title>
+  <defs>
+    <linearGradient id="text-gradient" x1="-100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#246E57" />
+      <stop offset="48%" stop-color="#8B6A1E" />
+      <stop offset="100%" stop-color="#B55343" />
+      <animate attributeName="x1" values="-100%;0%;-100%" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%;100%;0%" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+    <style>
+      .label { animation: reveal .8s cubic-bezier(.2,.75,.25,1) both; }
+      .rule { stroke-dasharray: 68; stroke-dashoffset: 68; animation: draw .8s ease-out .2s forwards; }
+      @keyframes reveal { from { opacity: 0; letter-spacing: 7px; } to { opacity: 1; letter-spacing: 1.2px; } }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+    </style>
+  </defs>
+  <text class="label" x="0" y="24" fill="url(#text-gradient)" font-family="Orbitron, sans-serif" font-size="22" font-weight="600" letter-spacing="1.2">LANGUAGES &amp; HARDWARE DESCRIPTION</text>
+  <path class="rule" d="M1 32h68" fill="none" stroke="#246E57" stroke-linecap="round" stroke-width="2" />
+</svg>
