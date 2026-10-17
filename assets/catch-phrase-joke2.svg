@@ -4,10 +4,14 @@
     <animate id="cycle" begin="0s;cycle.end" dur="8.532s"/>
     <clipPath id="master-clip"><rect x="0" y="0" width="450" height="80"/></clipPath>
     <style type="text/css"><![CDATA[
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 .text-common { 
         dominant-baseline: middle; 
         text-rendering: optimizeLegibility;
         shape-rendering: geometricPrecision;
+  font-family: 'Press Start 2P', monospace !important;
+        font-size: 18px !important;
+  font-weight: 400 !important;
       }
       rect[visibility="hidden"] { animation: cursor-fill 8.532s steps(1, end) infinite; }
       @keyframes cursor-fill {

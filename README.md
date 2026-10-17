@@ -2,27 +2,21 @@
 
 <p align="center"><img src="./assets/catch-phrase-joke2.svg" alt="Animated catch phrase" width="450" /></p>
 
-<h3 align="center">Let's Connect</h3>
 
 <p align="center">
 <a href="https://www.linkedin.com/in/gawah/" target="_blank">
-  <img src="./assets/contact-linkedin.svg" alt="LinkedIn: connect with Gawah" width="200" />
-</a>
-<a href="https://github.com/Toggled1" target="_blank">
-  <img src="./assets/contact-github.svg" alt="GitHub: view Gawah's projects" width="200" />
+  <img src="./assets/contact-linkedin.svg" alt="LinkedIn: connect with Gawah" width="160" />
 </a>
 <a href="mailto:gawah9@gmail.com">
-  <img src="./assets/contact-email.svg" alt="Email Gawah" width="200" />
+  <img src="./assets/contact-email.svg" alt="Email Gawah" width="160" />
 </a>
 </p>
 
 ## ![About Me](./assets/subheading-about-me.svg)
 
-My name is Gawah Chong-Simard. I study Computer Engineering at the University of Victoria. 
+Glad you came to check out my GitHub! My name is Gawah Chong-Simard, and I'm at UVic studying computer engineering!
 
 
-My current focus is on ASIC, FPGA, and SoC design with an emphasis on design verification with UVM.
-<p align="center"><img src="./assets/uvm-icon.webp" alt="uvm-icon" width="100" /></p>
 
 - **Studying:** Computer Engineering at the University of Victoria <img src="./assets/uvic-logo.png" alt="University of Victoria" height="14" />
 - **Working:** SoC DV Engineer at Solidigm (Co-op)<img src="./assets/solidigm-logo.png" alt="Solidigm" height="14" />

@@ -2,12 +2,10 @@
   <title id="title">Verification &amp; Design</title>
   <defs>
     <style>
-      .label { animation: reveal .8s cubic-bezier(.2,.75,.25,1) both; }
-      .rule { stroke-dasharray: 68; stroke-dashoffset: 68; animation: draw .8s ease-out .2s forwards; }
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+      .label { animation: reveal .8s cubic-bezier(.2,.75,.25,1) both; font-family: 'Press Start 2P', monospace; font-weight: 400; }
       @keyframes reveal { from { opacity: 0; letter-spacing: 7px; } to { opacity: 1; letter-spacing: 1.2px; } }
-      @keyframes draw { to { stroke-dashoffset: 0; } }
     </style>
   </defs>
   <text class="label" x="0" y="24" fill="#FBBC05" font-family="Orbitron, sans-serif" font-size="22" font-weight="600" letter-spacing="1.2">VERIFICATION &amp; DESIGN</text>
-  <path class="rule" d="M1 32h68" fill="none" stroke="#FBBC05" stroke-linecap="round" stroke-width="2" />
 </svg>
