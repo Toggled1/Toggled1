@@ -1,11 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="190" height="36" viewBox="0 0 190 36" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" width="187" height="36" viewBox="0 0 187 36" role="img" aria-labelledby="title">
   <title id="title">About Me</title>
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
-      .label { animation: reveal .8s cubic-bezier(.2,.75,.25,1) both; font-family: 'Press Start 2P', monospace; font-weight: 400; }
-      @keyframes reveal { from { opacity: 0; letter-spacing: 7px; } to { opacity: 1; letter-spacing: 1.2px; } }
+      .label { animation: reveal .8s cubic-bezier(.2,.75,.25,1) both;  }
+      @keyframes reveal { from { opacity: 0; } to { opacity: 1; } }
     </style>
   </defs>
-  <text class="label" x="0" y="24" fill="#4285F4" font-family="Orbitron, sans-serif" font-size="22" font-weight="600" letter-spacing="1.2">ABOUT ME</text>
+  <g class="label"><path d="M0 125V750H125V875H250V1000H625V875H750V750H875V125H625V375H250V125ZM250 500H625V750H500V875H375V750H250Z" transform="translate(0.000 24.000) scale(0.022000 -0.022000)" fill="#4285F4" shape-rendering="crispEdges" /><path d="M0 125V1000H750V875H875V625H750V500H875V250H750V125ZM250 625H625V875H250ZM250 250H625V500H250Z" transform="translate(23.200 24.000) scale(0.022000 -0.022000)" fill="#4285F4" shape-rendering="crispEdges" /><path d="M125 125V250H0V875H125V1000H750V875H875V250H750V125ZM250 250H625V875H250Z" transform="translate(46.400 24.000) scale(0.022000 -0.022000)" fill="#4285F4" shape-rendering="crispEdges" /><path d="M125 125V250H0V1000H250V250H625V1000H875V250H750V125Z" transform="translate(69.600 24.000) scale(0.022000 -0.022000)" fill="#4285F4" shape-rendering="crispEdges" /><path d="M375 125V875H125V1000H875V875H625V125Z" transform="translate(92.800 24.000) scale(0.022000 -0.022000)" fill="#4285F4" shape-rendering="crispEdges" /><path d="" transform="translate(116.000 24.000) scale(0.022000 -0.022000)" fill="#4285F4" shape-rendering="crispEdges" /><path d="M0 125V1000H250V875H375V750H500V875H625V1000H875V125H625V625H500V375H375V625H250V125Z" transform="translate(139.200 24.000) scale(0.022000 -0.022000)" fill="#4285F4" shape-rendering="crispEdges" /><path d="M0 125V1000H875V875H250V625H750V500H250V250H875V125Z" transform="translate(162.400 24.000) scale(0.022000 -0.022000)" fill="#4285F4" shape-rendering="crispEdges" /></g>
 </svg>
